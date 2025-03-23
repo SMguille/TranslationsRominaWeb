@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Contact Translations Romina for professional academic document translation services - Get in touch for a free quote or consultation.">
+        <title>Contact Us | Translations Romina</title>
+        <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+    </head>
+
+    <body>
+    <!-- Header -->
+    <header class="site-header" role="banner">
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html" class="logo">Translations Romina</a>
+            
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger" aria-label="Toggle navigation">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+    
+            <!-- Navigation Links -->
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" data-lang="home">Home</a></li>
+                <li><a href="services.html" class="nav-link" data-lang="services">Services</a></li>
+                <li><a href="pricing.html" class="nav-link" data-lang="prices">Pricing</a></li>
+                <li><a href="contact.html" class="nav-link" data-lang="contact">Contact</a></li>
+                <!-- Language Toggle Button -->
+                <li><button id="language-toggle" aria-label="Switch language">ES</button></li>
+            </ul>
+        </nav>
+    </header>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form-section" aria-labelledby="contact-form-heading">
+            <div class="section-container">
+                <h2 id="contact-form-heading" class="section-heading" data-lang="getTranslation">Get your translation now!</h2>
+                <form action="https://formsubmit.co/smguillermo2006@gmail.com" method="POST" enctype="multipart/form-data">
+                    <div class="form-grid">
+                        <!-- Full Name -->
+                        <div class="form-group">
+                            <label for="fullName" data-lang="fullName">Full Name <span class="required">*</span></label>
+                            <input type="text" id="fullName" name="name" class="form-input" placeholder="John Doe" required>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-group">
+                            <label for="email" data-lang="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="john.doe@example.com" required>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="form-group">
+                            <label for="phone" data-lang="phone">Phone Number <span class="required">*</span></label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+34 660 759 954" required>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="form-group full-width">
+                            <label for="message" data-lang="message">Message (optional)</label>
+                            <textarea data-lang="messagePlaceholder" id="message" name="message" class="form-input" placeholder="Type your message here..." rows="4"></textarea>
+                        </div>
+
+                        <!-- File Upload -->
+                        <div class="form-group full-width">
+                            <label for="fileUpload" data-lang="upload">Upload Documents (optional)</label>
+                            <div class="file-upload-wrapper">
+                                <input type="file" id="fileUpload" name="attachment" class="form-input" accept=".pdf,.doc,.docx,.jpg,.png">
+                                <span class="file-upload-text">No file chosen</span>
+                            </div>
+                            <small class="form-note" data-lang="maxFile">Max file size: 5MB (PDF, DOC, JPG, PNG)</small>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="cta-button primary form-submit">
+                        <span data-lang="sendMessage">Send Message</span>
+                        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-content">
+            <section class="footer-section" aria-labelledby="contact-heading">
+                <h3 id="contact-heading" data-lang="contactUs">Contact Us</h3>
+                <address>
+                    <p data-lang="emailLabel">Email: <a href="mailto:rominamendozavega@gmail.com">rominamendozavega@gmail.com</a></p>
+                    <p data-lang="phoneLabel">Phone: <a href="tel:+34660759954">+34 660 759 954</a></p>
+                </address>
+            </section>
+
+            <section class="footer-section" aria-labelledby="legal-heading">
+                <h3 id="openhours-heading" data-lang="openHours">Open Hours</h3>
+                <ul>
+                    <li data-lang="openHoursText1">Mondays to Thursdays from 9:00 to 17:00</li>
+                    <li data-lang="openHoursText2">Fridays from 9:00 to 15:00</li>
+                    <li data-lang="openHoursText3">Urgent request are accepted at a higher price, please check the pricing page for more information</li>
+                </ul>
+            </section>
+
+            <section class="footer-section" aria-labelledby="social-heading">
+                <h3 id="social-heading" data-lang="followUs">Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/rominamendozatraductora/" target="_blank" rel="noopener noreferrer">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" class="social-icon">
+                    </a>
+                    <a href="https://wa.me/+34660759954?text=Hello%20I%20am%20interested%20in%20your%20services" target="_blank" rel="noopener noreferrer">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="social-icon">
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <div class="footer-credits">
+            <p data-lang="rights">&copy; 2025 Translations Romina. All rights reserved.</p>
+        </div>
+    </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
